@@ -1,0 +1,216 @@
+@font-face {
+  font-family: Raleway;
+  src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header theming */
+
+h2 a:link,
+a:visited {
+  font-family: Raleway;
+  color: #000;
+}
+
+h2 a:hover,
+a:active {
+  color: #000;
+}
+
+h1.page-header {
+  font-family: Raleway;
+}
+
+#navbar-collapse a {
+  font-family: Raleway;
+  font-size: 15px;
+}
+
+#navbar-collapse a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+a.name.navbar-brand {
+  font-family: Raleway;
+  font-size: 30px;
+}
+
+/* Main region theming */
+
+.author {
+  font-style: italic;
+  color: #2b2b2b;
+  margin-bottom: 15px;
+}
+
+p {
+  font-family: Lato;
+  font-size: 16px;
+  color: #545454;
+}
+
+ul.links.inline.list-inline {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.node-readmore {
+  margin-right: 10px;
+}
+
+.node-readmore a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.node-readmore a:link,
+a:active {
+  border-image-source: linear-gradient(to right, #2196f3, #9121f3);
+  border-image-slice: 1;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #2196f3, #9121f3);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.node-readmore a:hover {
+  opacity: 0.8;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: 1s ease;
+}
+
+.comment-forbidden a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.comment-forbidden a:link,
+a:visited {
+  border-image-source: linear-gradient(to right, #2196f3, #9121f3);
+  border-image-slice: 1;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #2196f3, #9121f3);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.comment-forbidden a:hover {
+  opacity: 0.8;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: 1s ease;
+}
+
+.comment-add a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.comment-add a:link,
+a:visited {
+  border-image-source: linear-gradient(to right, #2196f3, #9121f3);
+  border-image-slice: 1;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #2196f3, #9121f3);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.comment-add a:hover {
+  opacity: 0.8;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 1s ease;
+}
+
+button#edit-submit.button.js-form-submit.form-submit.btn-primary.btn.icon-before {
+  border-image-source: linear-gradient(to right, #2196f3, #9121f3);
+  border-image-slice: 1;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #2196f3, #9121f3);
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+button#edit-submit.button.js-form-submit.form-submit.btn-primary.btn.icon-before:hover {
+  opacity: 0.8;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 1s ease;
+}
+
+button.button.js-form-submit.form-submit.btn-primary.btn.icon-only {
+  border: 1.5px solid #2196f3;
+  border-image-source: linear-gradient(to right, #2196f3, #9121f3);
+  border-image-slice: 1;
+  background-image: linear-gradient(to right, #2196f3, #9121f3);
+  margin-top: 15px;
+}
+
+button#edit-submit.button.button--primary.js-form-submit.form-submit.btn-success.btn {
+  border-image-source: linear-gradient(to right, #2196f3, #9121f3);
+  border-image-slice: 1;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, #2196f3, #9121f3);
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+button#edit-submit.button.button--primary.js-form-submit.form-submit.btn-success.btn:hover {
+  opacity: 0.8;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 1s ease;
+}
+
+#edit-keys {
+  margin-top: 15px;
+}
+
+.feed-icon {
+  display: none;
+}
+
+/* Footer theming */
+
+div.region.region-footer {
+  font-family: Raleway;
+  font-size: 15px;
+}
